@@ -106,8 +106,6 @@ Create a `.env` file in the `backend` folder:
 DATABASE_URL=your_mongodb_connection_string
 JWT_USER_SECRET=your_user_jwt_secret
 JWT_ADMIN_SECRET=your_admin_jwt_secret
-BASE_URL=http://localhost:3000
-PORT=3000
 ```
 
 Start the backend server:
@@ -128,7 +126,7 @@ npm install
 Create a `.env` file in the `frontend` folder:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=your_backend_url
 VITE_DEMO_LESSON_ID=your_demo_lesson_id
 VITE_DEMO_COURSE_ID=your_demo_course_id
 ```
@@ -152,8 +150,6 @@ The frontend will start on `http://localhost:5173`
 | `DATABASE_URL` | MongoDB connection string |
 | `JWT_USER_SECRET` | Secret key for signing user tokens |
 | `JWT_ADMIN_SECRET` | Secret key for signing admin tokens |
-| `BASE_URL` | Backend base URL for file serving |
-| `PORT` | Port to run the backend on |
 
 ### Frontend `.env`
 
