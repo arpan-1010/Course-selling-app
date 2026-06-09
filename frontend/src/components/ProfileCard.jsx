@@ -16,7 +16,6 @@ export default function ProfileCard({ profile, role }) {
     return (
         <div className={`bg-slate-900/80 backdrop-blur-xl border ${accentBorder} rounded-2xl p-6 shadow-lg`}>
 
-            {/* avatar + name */}
             <div className="flex items-center gap-4 mb-5">
                 <div className={`w-14 h-14 rounded-full bg-gradient-to-br ${accentColor} flex items-center justify-center text-white font-bold text-xl flex-shrink-0`}>
                     {initials}
